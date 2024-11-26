@@ -1,0 +1,54 @@
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+}
+
+hr {
+    margin: 1rem 0;
+    border: 1px solid #ccc;
+}
+
+.item-detail {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.item-detail img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 2rem;
+    border-radius: 8px;
+}
+
+.item-detail-info {
+    max-width: 500px;
+    flex: 1;
+}
+
+.item-detail-info h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.item-detail-info p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.item-detail-info .price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000;
+}
